@@ -6,8 +6,8 @@ from flatlib import aspects
 
 
 #Variables
-date = Datetime('1979/04/17', '16:49', '-06:00')
-pos = GeoPos('40n48', '91w06')
+date = Datetime('1949/08/19', '14:49', '-06:00')
+pos = GeoPos('42n40', '91w06')
 chart = Chart(date, pos, IDs=const.LIST_OBJECTS, hsys=const.HOUSES_PLACIDUS)
 
 #Houses
