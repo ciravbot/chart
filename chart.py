@@ -83,57 +83,6 @@ def AspectPrint():
             if aspects.hasAspect(obj1, obj2, const.ALL_ASPECTS):
                 print (obj1, aspects.aspectType(obj1, obj2, const.ALL_ASPECTS),obj2)
 
-def AspectPrint():
-    # Sun Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(sun, obj, const.ALL_ASPECTS):
-            print(sun, aspects.aspectType(sun, obj, const.ALL_ASPECTS), obj)
-
-    # Moon Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(moon, obj, const.ALL_ASPECTS):
-            print(moon, aspects.aspectType(moon, obj, const.ALL_ASPECTS), obj)
-
-    # Mercury Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(mercury, obj, const.ALL_ASPECTS):
-            print(mercury, aspects.aspectType(mercury, obj, const.ALL_ASPECTS), obj)
-
-    # Venus Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(venus, obj, const.ALL_ASPECTS):
-            print(sun, aspects.aspectType(venus, obj, const.ALL_ASPECTS), obj)
-
-    # Mars Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(mars, obj, const.ALL_ASPECTS):
-            print(mars, aspects.aspectType(mars, obj, const.ALL_ASPECTS), obj)
-
-    # Jupiter Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(jupiter, obj, const.ALL_ASPECTS):
-            print(jupiter, aspects.aspectType(jupiter, obj, const.ALL_ASPECTS), obj)
-
-    # Saturn Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(saturn, obj, const.ALL_ASPECTS):
-            print(saturn, aspects.aspectType(saturn, obj, const.ALL_ASPECTS), obj)
-
-    # Uranus Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(uranus, obj, const.ALL_ASPECTS):
-            print(uranus, aspects.aspectType(uranus, obj, const.ALL_ASPECTS), obj)
-
-    # Neptune Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(neptune, obj, const.ALL_ASPECTS):
-            print(neptune, aspects.aspectType(neptune, obj, const.ALL_ASPECTS), obj)
-
-    # Pluto Aspect Check
-    for obj in chart.objects:
-        if aspects.hasAspect(pluto, obj, const.ALL_ASPECTS):
-            print(pluto, aspects.aspectType(pluto, obj, const.ALL_ASPECTS), obj)
-
 HousePrint()
 print ("\n------------------------------------------\n")
 AspectPrint()
